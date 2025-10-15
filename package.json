@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "cd devflow-app && npm run dev",
+    "build": "cd devflow-app && npm run build",
+    "start": "cd devflow-app && npm run start",
+    "lint": "cd devflow-app && npm run lint"
+  },
+  "dependencies": {
+    "@next-auth/prisma-adapter": "^1.0.7",
+    "@prisma/client": "^6.8.2",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.8.2"
+  }
+}
